@@ -1,0 +1,86 @@
+:root {
+    --primary-color: #3a3528;
+}
+
+body {
+    font-family: cursive;
+    margin: 0;
+}
+
+textarea {
+    box-sizing: border-box;
+    display: block;
+    margin: 2rem auto;
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid black;
+    min-height: 20vh;
+}
+
+button {
+    display: block;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-family: cursive;
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+}
+
+button:hover {
+    background-color: yellowgreen;
+}
+
+#output {
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 100%;
+    margin: 2rem auto;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow:scroll;
+    padding: 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+    padding: 1rem;
+}
+
+nav div{
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 0.5rem;
+    font-size: large;
+    color: white;
+}   
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    width: 100%;
+    padding: 1rem 0rem;
+    background-color: var(--primary-color);
+    text-align: center;
+    color: white;
+}
+
+footer p {
+    max-width: 600px;
+    margin: auto;
+    padding-bottom: 2rem;
+}
+
+footer a {
+    text-decoration: none;
+    background-color: white;
+    padding: 0rem 0.5rem;
+    color: black;
+}
